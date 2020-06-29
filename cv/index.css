@@ -1,0 +1,188 @@
+@font-face {
+    font-family: AvenirNextLTProRegular;
+    src: url(Assets/AvenirNextLTPro-Regular.otf);
+}
+
+@font-face {
+    font-family: AvenirNextLTProBold;
+    src: url(Assets/AvenirNextLTPro-Bold.otf);
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
+img {
+    display: flex;
+    max-width: 450px;
+    max-height: 450px;
+    object-fit: contain;
+    background-color: saddlebrown;
+}
+
+a {
+    color: white;
+}
+
+h1 {
+    font-family: 'AvenirNextLTProBold';
+    color: white;
+}
+
+.main {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(38, 38, 38);
+}
+
+.overlay_inner {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 10em;
+    margin-left: 10em;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    width: 500px;
+    border-right: 2px;
+    border-right-style: solid;
+    border-color: rgb(62, 62, 62);
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    overflow-wrap: break-word;
+    margin-left: 5em;
+}
+
+.nameAndOccupation {
+    margin-top: 2em;
+    line-height: 1em;
+}
+
+.name {
+    font-family: 'AvenirNextLTProBold';
+    color: rgb(91, 91, 91);
+}
+
+.occupation {
+    font-family: 'AvenirNextLTProRegular';
+    color: rgb(91, 91, 91);
+    line-height: 9px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    color: rgb(142, 142, 142);
+    line-height: 9px;
+}
+
+.infoTitle {
+    font-family: 'AvenirNextLTProRegular';
+    color: rgb(142, 142, 142);
+    line-height: 9px;
+}
+
+.infoValues {
+    font-family: 'AvenirNextLTProRegular';
+    color: rgb(142, 142, 142);
+    line-height: 9px;
+    margin-left: 2em;
+}
+
+.title {
+    margin-top: 2em;
+    margin-bottom: 0em;
+    line-height: 9px;
+}
+
+.greenLine {
+    width: 65px;
+    border-bottom: 5px;
+    border-bottom-style: solid;
+    border-color: rgb(82, 236, 202);
+}
+
+.aboutText {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 14pt;
+    color: rgb(105, 105, 105);
+    margin-right: 1em;
+}
+
+.skillTable {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 16pt;
+    display: flex;
+    margin-left: -2em;
+}
+
+.skills {
+    list-style-type: none;
+    color: rgb(142, 142, 142);
+}
+
+.skillYears {
+    list-style-type: none;
+    color: rgb(142, 142, 142);
+    text-align: right;
+    margin-left: 5em;
+}
+
+.categoryComponent {
+    margin-bottom: 4em;
+}
+
+.experienceComponent {
+    margin-bottom: 0em;
+}
+
+.experienceTitle {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 14pt;
+    color: rgb(162, 162, 162);
+    width: 1250px;
+}
+
+.experienceUnderTitle {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 10pt;
+    margin-Top: -2.5em;
+    margin-bottom: 2.5em;
+    color: rgb(120, 120, 120);
+}
+
+.experienceList {
+    font-size: 1.5em;
+    margin-left: -1em;
+    margin-top: -0.65em;
+    max-width: 700px;
+    color: white;
+}
+
+li span {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 16pt;
+    color: rgb(91, 91, 91);
+}
