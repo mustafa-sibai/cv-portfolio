@@ -42,13 +42,13 @@ const Links = (props) => {
                         if (index === props.links.length - 1) {
                             return (
                                 <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-                                    <a href={item.url} target='_blank' rel='noreferrer'>{item.name}</a>
+                                    <a href={item.url} target='_blank' rel='noreferrer noopener'>{item.name}</a>
                                 </div>
                             )
                         } else {
                             return (
                                 <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-                                    <a href={item.url} target='_blank' rel='noreferrer'>{item.name}</a>
+                                    <a href={item.url} target='_blank' rel='noreferrer noopener'>{item.name}</a>
                                     <p style={{ whiteSpace: 'pre-wrap' }}> {` | `}</p>
                                 </div>
                             )
