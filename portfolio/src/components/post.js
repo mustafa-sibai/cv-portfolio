@@ -1,5 +1,6 @@
 import React from 'react'
 import { Slide } from 'react-slideshow-image';
+import 'react-slideshow-image/dist/styles.css'
 import './fonts.css'
 
 const properties = {
@@ -36,7 +37,7 @@ const Links = (props) => {
     } else {
         return (
             <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
-                <p style={{ color: 'rgb(120, 120, 120)', whiteSpace: 'pre-wrap' }}> {`Links: `}</p>
+                <p style={{ whiteSpace: 'pre-wrap' }}> {`Links: `}</p>
                 {
                     props.links.map((item, index) => {
                         if (index === props.links.length - 1) {
@@ -62,10 +63,10 @@ const Links = (props) => {
 
 const Post = (props) => {
     return (
-        <div style={{ width: '100%' /*,backgroundColor: 'green'*/ }}>
+        <div style={{ width: '100%' }}>
             <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'space-between' }}>
-                <h1 style={{ fontFamily: 'AvenirNextLTProRegular', color: 'rgb(162, 162, 162)' }}>{props.title}</h1>
-                <div style={{ marginTop: '-15px', marginBottom: '1em', fontSize: '16pt', fontFamily: 'AvenirNextLTProRegular', color: 'rgb(120, 120, 120)' }}>{props.date}</div>
+                <h1 style={{ color: 'rgb(172, 172, 172)' }}>{props.title}</h1>
+                <div style={{ marginTop: '-15px', marginBottom: '1em', fontSize: '16pt', color: 'rgb(120, 120, 120)' }}>{props.date}</div>
             </div>
 
             <iframe
@@ -79,33 +80,23 @@ const Post = (props) => {
             <div style={{
                 display: 'flex',
                 flexDirection: 'row',
-                width: '100%'/*,
-                backgroundColor: 'pink'*/
+                width: '100%'
             }}>
-                <div style={{ width: '48.1%', height: '100%'/*, backgroundColor: 'red'*/ }}>
+                <div style={{ width: '48.1%', height: '100%' }}>
                     <Slide {...properties}>
                         {
                             props.slideImages.map((item) => {
                                 return (
-                                    <div style={{
-                                        marginTop: '1.25em',
-                                        height: '254px',
-                                        backgroundSize: 'contain',
-                                        backgroundRepeat: 'no-repeat',
-                                        backgroundImage: `url(${item})`
-                                    }}>
-                                    </div>
+                                    <img src={'.' + item} alt={'Mustafa Sibai'} />
                                 )
                             })
                         }
                     </Slide>
                 </div>
 
-                <div style={{ width: '50%', height: '100%', marginLeft: '1em'/*, backgroundColor: 'blue'*/ }}>
-                    <p style={{ fontFamily: 'AvenirNextLTProRegular', marginTop: '1em', color: 'rgb(120, 120, 120)', whiteSpace: 'break-spaces' }}>{`${props.description}`}</p>
-
+                <div style={{ width: '50%', height: '100%', marginLeft: '1em' }}>
+                    <p style={{ marginTop: '1em', whiteSpace: 'break-spaces' }}>{`${props.description}`}</p>
                     <Links links={props.links} />
-
                 </div>
             </div>
             <BottomBorder removeBottomBorder={props.removeBottomBorder} />

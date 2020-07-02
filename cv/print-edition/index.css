@@ -8,6 +8,13 @@
     src: url(Assets/AvenirNextLTPro-Bold.otf);
 }
 
+::-webkit-scrollbar {
+    width: 0px;
+    /* Remove scrollbar space */
+    background: transparent;
+    /* Optional: just make scrollbar invisible */
+}
+
 img {
     display: flex;
     max-width: 250px;
@@ -16,12 +23,12 @@ img {
 }
 
 a {
-    color: white;
+    color: black;
 }
 
 h1 {
     font-family: 'AvenirNextLTProBold';
-    color: white;
+    color: black;
 }
 
 .main {
@@ -37,7 +44,6 @@ h1 {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgb(38, 38, 38);
 }
 
 .overlay_inner {
@@ -120,6 +126,7 @@ h1 {
     font-size: 12pt;
     color: rgb(105, 105, 105);
     margin-right: -0.6em;
+    /*margin-top: -0.5em;*/
 }
 
 .skillTable {
@@ -156,7 +163,7 @@ h1 {
     font-size: 14pt;
     color: rgb(162, 162, 162);
     width: 480px;
-    margin-top: -0.6em;
+    margin-top: 0.6em;
 }
 
 .experienceUnderTitle {
@@ -182,7 +189,6 @@ h1 {
     margin-left: -1em;
     margin-top: -1.5em;
     max-width: 460px;
-    color: white;
 }
 
 li span {

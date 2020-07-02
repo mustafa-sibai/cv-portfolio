@@ -15,9 +15,9 @@ const VaultTechEngine = () => (
         date={'March 2014 – April 2015'}
 
         youTubeVideo={'https://www.youtube.com/embed/JiGCeuPhfiE'}
-        description={`Description: Vault-Tech was my first game engine that I built on top of XNA using C#. The engine supported multi-threaded A* path-finding using my own job system. The engine supported tiled based rendering and had a tile map editor. The engine only rendered what was present on the screen. 
+        description={`Description: Vault-Tech was the first game engine that I built on top of XNA using C#. The engine supported multi-threaded A* path-finding using my own job system. The engine supported tiled based rendering and has a tilemap editor. The engine only rendered what is present on the screen. 
         
-The engine supported both TCP and UDP protocols which were used with a client/server architecture. The engine supported SQL communication to upload data to a database.
+The engine supported both TCP and UDP protocols which were used with a client/server architecture to allow network play. The engine supported SQL to upload data to a database.
 
 Technology: XNA/MonoGame, Winsock2, SQL, C#
         
@@ -35,7 +35,7 @@ Platforms: Windows`}
         links={[
             {
                 name: 'GitHub',
-                url: 'https://www.google.com'
+                url: 'https://github.com/FantasyVII/Vault-Engine'
             }
         ]}
     />

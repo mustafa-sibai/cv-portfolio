@@ -4,6 +4,8 @@ import '../components/fonts.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+import AboutPost from '../components/aboutPost'
+
 import Beautify from '../posts/commercial-projects/beautify/beautify'
 import MotivateMe from '../posts/commercial-projects/motivate-me/motivate-me'
 import RiverRun from '../posts/commercial-projects/river-run/river-run'
@@ -28,6 +30,8 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
+    <AboutPost />
+    
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Commercial Projects</h1>
     <Beautify />
     <MotivateMe />

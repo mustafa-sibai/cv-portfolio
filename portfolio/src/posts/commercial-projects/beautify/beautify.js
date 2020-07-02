@@ -16,9 +16,9 @@ const Beautify = () => (
         date={'October 2019 - Present'}
 
         youTubeVideo={'https://www.youtube.com/embed/k5N_3vgS9U0'}
-        description={`Description: Beautify is an e-commerce and service booking app which allows you to sell and buy beauty products and book services online. You can create a profile, and starting browsing salons near you
+        description={`Description: Beautify is an e-commerce and a salon service booking app that allows you to sell and buy beauty products and book salon services online. You can create a profile, and starting browsing salons near you.
 
-Technology: The app is written in React Native, Javascript, and Node.js and uses Google cloud as a backend for server hosting.
+Technology: React Native, Javascript, and Node.js, Google Cloud.
       
 Platforms: IOS, Android`}
 

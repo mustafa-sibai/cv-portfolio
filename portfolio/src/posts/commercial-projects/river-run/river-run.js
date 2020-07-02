@@ -16,9 +16,9 @@ const RiverRun = () => (
         date={'July 2018 - August 2018'}
 
         youTubeVideo={'https://www.youtube.com/embed/D45tIxns4NE'}
-        description={`Description: River run is a singleplayer endless runner game where you have to avoid obstacles and collect as many coins as possible.
-
-The game has multiple levels and an online scoreboard. The game has power-ups and multiple boats to pick from.
+        description={`Description: River run is a singleplayer endless runner game where you have to avoid obstacles and collect as many coins as possible. 
+        
+The game has multiple levels, power-ups, an online scoreboard, and multiple boats to pick from. 
 
 Technology: Unity 3D, C#
 

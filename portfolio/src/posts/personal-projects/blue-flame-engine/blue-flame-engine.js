@@ -51,7 +51,7 @@ Platforms: Windows, Linux, Android, Web`}
         links={[
             {
                 name: 'GitHub',
-                url: 'https://www.google.com'
+                url: 'https://github.com/FantasyVII/Blue-Flame-Engine'
             }
         ]}
     />

@@ -15,11 +15,11 @@ const RaceStart2 = () => (
         date={'February 2015 - August 2015'}
 
         youTubeVideo={'https://www.youtube.com/embed/1JYzfh15bDo'}
-        description={`Description: Race Start 2 is a single player infinite runner style game where you have to collect as many coins as possible before the timer ends. The game also has a multiplayer mode where you have to battle four other players to get the key to the treasure chest. The first person to unlock the chest wins!
+        description={`Description: Race Start 2 is a singleplayer infinite runner style game where you have to collect as many coins as possible before the timer ends. The game also has a multiplayer mode where you have to battle four other players to get the key to the treasure chest. The first person to unlock the chest wins!
 
-The game has a shop where you can unlock new characters and unlock new skins for each character.
+The game has a shop where you can unlock new characters and unlock new skins.
 
-The game also has a friend system where you can add friends and chat with them and invite them to your game if they are online.
+The game has a friend system where you can add friends, chat with them, and invite them to your game.
 
 Technology: Unity 3D, C#
 

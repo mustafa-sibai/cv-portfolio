@@ -19,9 +19,9 @@ const TheExiled = () => (
         date={'April 2015 - March 2016'}
 
         youTubeVideo={'https://www.youtube.com/embed/yDN0YaS2bd0'}
-        description={`Description: The Exiled is 2D pixel art procedurally generated dungeon game built in C++ on top of the Vault-Tech engine and then moved to the Blue Flame Engine.
+        description={`Description: The Exiled is 2D pixel art procedurally generated dungeon game built in C++ on top of my Vault-Tech engine.
 
-Technology: Blue Flame Engine, C++
+Technology: Vault-Tech engine, C++
         
 Platforms: Windows, Linux`}
 
