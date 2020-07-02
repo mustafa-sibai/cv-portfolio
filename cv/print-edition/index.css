@@ -109,7 +109,7 @@ h1 {
 }
 
 .title {
-    margin-top: 1.5em;
+    margin-top: -0.4em;
     margin-bottom: 0em;
     line-height: 9px;
 }
@@ -163,7 +163,7 @@ h1 {
     font-size: 14pt;
     color: rgb(162, 162, 162);
     width: 480px;
-    margin-top: 0.6em;
+    margin-top: -0.8em;
 }
 
 .experienceUnderTitle {
