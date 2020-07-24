@@ -13,7 +13,7 @@ const HacknSlash = () => (
         title={'Hack’n Slash'}
         date={'April 2015 – May 2015'}
 
-        youTubeVideo={'https://www.youtube.com/embed/jIHXAk4zAZI'}
+        youTubeVideo={'https://www.youtube.com/embed/4B_sErQ66Ug'}
         description={`Description: Hack’n Slash is a procedurally generated dungeon crawler game where you fight skeletons. This game was my first try at procedural generation.
 
 Technology: Vault-Tech, XNA, C#

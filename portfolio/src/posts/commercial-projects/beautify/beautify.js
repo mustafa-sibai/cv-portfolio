@@ -15,7 +15,7 @@ const Beautify = () => (
         title={'Beautify'}
         date={'October 2019 - Present'}
 
-        youTubeVideo={'https://www.youtube.com/embed/k5N_3vgS9U0'}
+        youTubeVideo={'https://www.youtube.com/embed/vqtsA28Kpp4'}
         description={`Description: Beautify is an e-commerce and a salon service booking app that allows you to sell and buy beauty products and book salon services online. You can create a profile, and starting browsing salons near you.
 
 Technology: React Native, Javascript, and Node.js, Google Cloud.

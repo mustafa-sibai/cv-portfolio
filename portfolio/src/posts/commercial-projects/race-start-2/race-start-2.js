@@ -14,7 +14,7 @@ const RaceStart2 = () => (
         title={'Race Start 2'}
         date={'February 2015 - August 2015'}
 
-        youTubeVideo={'https://www.youtube.com/embed/1JYzfh15bDo'}
+        youTubeVideo={'https://www.youtube.com/embed/BnpSuGTZc30'}
         description={`Description: Race Start 2 is a singleplayer infinite runner style game where you have to collect as many coins as possible before the timer ends. The game also has a multiplayer mode where you have to battle four other players to get the key to the treasure chest. The first person to unlock the chest wins!
 
 The game has a shop where you can unlock new characters and unlock new skins.

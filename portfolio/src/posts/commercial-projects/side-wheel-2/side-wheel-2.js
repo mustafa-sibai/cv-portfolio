@@ -14,7 +14,7 @@ const SideWheel2 = () => (
         title={'Side Wheel 2'}
         date={'March 2017 - July 2017'}
 
-        youTubeVideo={'https://www.youtube.com/embed/E3QY2__G290'}
+        youTubeVideo={'https://www.youtube.com/embed/kc3jn5HFXBQ'}
         description={`Description: Side Wheel 2 is a multiplayer game where you have to get a 4×4 car up on its side on two wheels. The longer you have the car on its side the higher your score is.
 
 The game has a shop where you can unlock new vehicles, decals, license plates, and skins.

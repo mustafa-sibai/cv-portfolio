@@ -12,7 +12,7 @@ const MotivateMe = () => (
         title={'Motivate Me!'}
         date={'March 2020 - April 2020'}
 
-        youTubeVideo={'https://www.youtube.com/embed/yA2_WWzuPxo'}
+        youTubeVideo={'https://www.youtube.com/embed/DQ5Bsgv3B8c'}
         description={`Description: Four characters, each with unique voices, and music that will give you the motivation you need to get work done! It's as simple as swiping between characters and pressing a button!
 
 Technology: Unity 3D, C#

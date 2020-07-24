@@ -16,7 +16,7 @@ const Crossbow = () => (
         title={'Crossbow'}
         date={'May 2018 - July 2018'}
         
-        youTubeVideo={'https://www.youtube.com/embed/Tea-psBpvO4'}
+        youTubeVideo={'https://www.youtube.com/embed/oBKoz655tEQ'}
         description={`Description: Crossbow is a fun 2D game where you have to break as many targets as possible and get the highest score.
 
 Technology: Unity 3D, C#

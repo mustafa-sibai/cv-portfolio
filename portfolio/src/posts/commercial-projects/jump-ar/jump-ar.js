@@ -16,7 +16,7 @@ const JumpAR = () => (
         title={'Jump AR'}
         date={'March 2018 - May 2018'}
 
-        youTubeVideo={'https://www.youtube.com/embed/ge6ZeYgfByI'}
+        youTubeVideo={'https://www.youtube.com/embed/-9NccpKMdmw'}
         description={`Description: Jump AR is a 3D augmented reality game where you have to jump over blocks and try to reach the highest score possible without falling. You can unlock new characters and customize your existing character with new skins.
 
 Technology: Unity 3D, ARKit, C#

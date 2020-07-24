@@ -15,7 +15,7 @@ const RiverRun = () => (
         title={'River Run'}
         date={'July 2018 - August 2018'}
 
-        youTubeVideo={'https://www.youtube.com/embed/D45tIxns4NE'}
+        youTubeVideo={'https://www.youtube.com/embed/5Iqp5RZLPCM'}
         description={`Description: River run is a singleplayer endless runner game where you have to avoid obstacles and collect as many coins as possible. 
         
 The game has multiple levels, power-ups, an online scoreboard, and multiple boats to pick from. 

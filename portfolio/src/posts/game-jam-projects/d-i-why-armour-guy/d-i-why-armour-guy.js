@@ -18,7 +18,7 @@ const DIWhyArmourGuy = () => (
         title={'D-I-Why? Armour Guy'}
         date={'January 2020'}
 
-        youTubeVideo={'https://www.youtube.com/embed/z0Qa7-QL4uQ'}
+        youTubeVideo={'https://www.youtube.com/embed/BCSpBp0zCJA'}
         description={`Description: D-I-Why? Armour Guy is a game about a shifty frog fixing armor for adventurers. Mr.Frog has three tools at his disposal to fix a variety of armor defects!
 
 Technology: Unity 3D, C#

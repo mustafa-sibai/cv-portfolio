@@ -14,7 +14,7 @@ const VaultTechEngine = () => (
         title={'Vault-Tech Engine'}
         date={'March 2014 – April 2015'}
 
-        youTubeVideo={'https://www.youtube.com/embed/JiGCeuPhfiE'}
+        youTubeVideo={'https://www.youtube.com/embed/2-Xu3tAL6gs'}
         description={`Description: Vault-Tech was the first game engine that I built on top of XNA using C#. The engine supported multi-threaded A* path-finding using my own job system. The engine supported tiled based rendering and has a tilemap editor. The engine only rendered what is present on the screen. 
         
 The engine supported both TCP and UDP protocols which were used with a client/server architecture to allow network play. The engine supported SQL to upload data to a database.

@@ -14,7 +14,7 @@ const PounceHug = () => (
         title={'Pounce Hug!'}
         date={'January 2019'}
 
-        youTubeVideo={'https://www.youtube.com/embed/ngykeTlDs9U'}
+        youTubeVideo={'https://www.youtube.com/embed/QfPXkLiRwOY'}
         description={`Description: Pounce Hug is a singleplayer 3D game where you go around and hug as many people as possible without their consent before the timer ends.
 
 Technology: Unity 3D, C#
