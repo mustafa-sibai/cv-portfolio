@@ -45,9 +45,9 @@ const AboutPost = (props) => {
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                     <p style={{ color: 'rgb(162, 162, 162)', whiteSpace: 'pre-wrap' }}>
-                        {`Hello, I’m Mustafa Sibai. I’m an engine programmer, game developer, and a games lecturer. I am passionate about game development, computer graphics, and pushing hardware to the limit. 
+                        {`Hello, I’m Mustafa Sibai. I’m a Full Stack Developer, an engine programmer, a game developer, and a games lecturer. I am passionate about programming, game development, computer graphics, and pushing hardware to the limit. 
                         
-I have worked on multiple technologies like Unity3D, OpenGL, DirectX, GLSL/HLSL/CG, ARKit, ARCore, Vive VR, Computer Vision, WinSocket 2, React, React Native, Node.js, Gatsby, and more… 
+I have worked on multiple technologies such as Unity Engine, Unreal Engine, OpenGL, DirectX, GLSL/HLSL/CG, ARKit, ARCore, Vive VR, Computer Vision, WinSocket 2, WebSocket, Native Android and IOS, React, React Native, Node.js, Gatsby, AWS, GCP, and more… 
 
 I have developed and published two game engines, multiple game titles, and apps, and I have participated in the Global Game Jam four years in a row since 2017. 
 

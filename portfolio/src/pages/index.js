@@ -6,6 +6,7 @@ import SEO from "../components/seo"
 
 import AboutPost from '../components/aboutPost'
 
+import ReelCinema from '../posts/commercial-projects/reel-cinema/reel-cinema'
 import Beautify from '../posts/commercial-projects/beautify/beautify'
 import MotivateMe from '../posts/commercial-projects/motivate-me/motivate-me'
 import RiverRun from '../posts/commercial-projects/river-run/river-run'
@@ -20,6 +21,7 @@ import HacknSlash from '../posts/personal-projects/hackn-slash/hackn-slash'
 import TheExiled from '../posts/personal-projects/the-exiled/the-exiled'
 import HeroesOfNewcastle from '../posts/personal-projects/heroes-of-newcastle/heroes-of-newcastle'
 
+import BuggedDungeon from '../posts/game-jam-projects/bugged-dungeon/bugged-dungeon'
 import DIWhyArmourGuy from '../posts/game-jam-projects/d-i-why-armour-guy/d-i-why-armour-guy'
 import PounceHug from '../posts/game-jam-projects/pounce-hug/pounce-hug'
 import NeonFever from '../posts/game-jam-projects/neon-fever/neon-fever'
@@ -33,6 +35,7 @@ const IndexPage = () => (
     <AboutPost />
     
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Commercial Projects</h1>
+    <ReelCinema />
     <Beautify />
     <MotivateMe />
     <RiverRun />
@@ -49,6 +52,7 @@ const IndexPage = () => (
     <HeroesOfNewcastle />
 
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Game Jam Projects</h1>
+    <BuggedDungeon />
     <DIWhyArmourGuy />
     <PounceHug />
     <NeonFever />
