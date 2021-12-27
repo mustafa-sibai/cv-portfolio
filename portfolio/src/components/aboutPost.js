@@ -1,30 +1,8 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import { StaticImage } from "gatsby-plugin-image"
 import './fonts.css'
 
-export const fluidImage = graphql`
- fragment fluidImage on File {
-   childImageSharp {
-     fluid(maxWidth: 1000) {
-       ...GatsbyImageSharpFluid
-     }
-   }
- }
- `;
-
-const query = graphql`
- query {
-   mustafaSibaiProfilePicture: file(relativePath: { eq: "profilePicture.jpg" }) {
-     ...fluidImage
-   }
- }
- `;
-//                    
-
-
 const AboutPost = (props) => {
-    const data = useStaticQuery(query);
 
     return (
         <div style={{ width: '100%' /*,backgroundColor: 'green'*/ }}>
@@ -40,7 +18,10 @@ const AboutPost = (props) => {
             }}>
 
                 <div style={{ width: '75%', marginRight: '2em' }} >
-                    <Img fluid={data.mustafaSibaiProfilePicture.childImageSharp.fluid} alt={'Mustafa Sibai'} />
+                    <StaticImage
+                        alt='Mustafa Sibai'
+                        src="../images/profilePicture.jpg"
+                    />
                 </div>
 
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -55,7 +36,7 @@ My biggest personal project is my game engine. Blue Flame Engine supports Window
                     </p>
                     <h4 style={{ color: 'rgb(255, 255, 255)', whiteSpace: 'pre-wrap' }}>
                         {`View my CV at  `}
-                        <a style={{ color: 'rgb(255, 255, 255)', whiteSpace: 'pre-wrap' }}href="https://m-sibai.com/cv" target="_blank"
+                        <a style={{ color: 'rgb(255, 255, 255)', whiteSpace: 'pre-wrap' }} href="https://m-sibai.com/cv" target="_blank"
                             rel="noreferrer noopener">m-sibai.com/cv</a>
                     </h4>
                 </div>

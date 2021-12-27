@@ -27,13 +27,12 @@ import PounceHug from '../posts/game-jam-projects/pounce-hug/pounce-hug'
 import NeonFever from '../posts/game-jam-projects/neon-fever/neon-fever'
 import CavedIn from '../posts/game-jam-projects/caved-in/caved-in'
 
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
 
     <AboutPost />
-    
+
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Commercial Projects</h1>
     <ReelCinema />
     <Beautify />
