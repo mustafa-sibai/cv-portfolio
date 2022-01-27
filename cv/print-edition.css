@@ -31,10 +31,9 @@ h1 {
     color: black;
 }
 
-.main {
-    position: fixed;
-    top: 0;
-    left: 0;
+body {
+    margin: 0px;
+    padding: 0px;
     width: 100%;
     height: 100%;
 }
@@ -127,6 +126,34 @@ h1 {
     color: rgb(105, 105, 105);
     margin-right: -0.6em;
     /*margin-top: -0.5em;*/
+}
+
+
+.educationDiv {
+    margin-bottom: 20px;
+}
+
+.educationUniText {
+    font-family: 'AvenirNextLTProBold';
+    font-size: 12pt;
+    color: rgb(142, 142, 142);
+    margin-right: -0.6em;
+}
+
+.educationDegreeText {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 12pt;
+    color: rgb(142, 142, 142);
+    margin-right: -0.6em;
+    margin-top: -16px;
+}
+
+.educationDate {
+    font-family: 'AvenirNextLTProRegular';
+    font-size: 12pt;
+    color: rgb(142, 142, 142);
+    margin-right: -0.6em;
+    margin-top: -16px;
 }
 
 .skillTable {
