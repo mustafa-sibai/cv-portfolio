@@ -6,14 +6,19 @@ import SEO from "../components/seo"
 
 import AboutPost from '../components/aboutPost'
 
+import BlocksGame from '../posts/commercial-projects/blocks-game/blocks-game'
+import PSI from '../posts/commercial-projects/plan-save-invest/psi'
+import BuggedDungeon from '../posts/commercial-projects/bugged-dungeon/bugged-dungeon'
+import Scramblegram from '../posts/commercial-projects/scramblegram/scramblegram'
 import ReelCinema from '../posts/commercial-projects/reel-cinema/reel-cinema'
+import BlackSky from '../posts/commercial-projects/blacksky/blacksky'
 import Beautify from '../posts/commercial-projects/beautify/beautify'
 import MotivateMe from '../posts/commercial-projects/motivate-me/motivate-me'
 import RiverRun from '../posts/commercial-projects/river-run/river-run'
 import Crossbow from '../posts/commercial-projects/crossbow/crossbow'
 import JumpAR from '../posts/commercial-projects/jump-ar/jump-ar'
-import RaceStart2 from '../posts/commercial-projects/race-start-2/race-start-2'
 import SideWheel2 from '../posts/commercial-projects/side-wheel-2/side-wheel-2'
+import RaceStart2 from '../posts/commercial-projects/race-start-2/race-start-2'
 
 import BlueFlameEngine from '../posts/personal-projects/blue-flame-engine/blue-flame-engine'
 import VaultTechEngine from '../posts/personal-projects/vault-tech-engine/vault-tech-engine'
@@ -21,7 +26,7 @@ import HacknSlash from '../posts/personal-projects/hackn-slash/hackn-slash'
 import TheExiled from '../posts/personal-projects/the-exiled/the-exiled'
 import HeroesOfNewcastle from '../posts/personal-projects/heroes-of-newcastle/heroes-of-newcastle'
 
-import BuggedDungeon from '../posts/game-jam-projects/bugged-dungeon/bugged-dungeon'
+import BuggedDungeonGGJ from '../posts/game-jam-projects/bugged-dungeon/bugged-dungeon'
 import DIWhyArmourGuy from '../posts/game-jam-projects/d-i-why-armour-guy/d-i-why-armour-guy'
 import PounceHug from '../posts/game-jam-projects/pounce-hug/pounce-hug'
 import NeonFever from '../posts/game-jam-projects/neon-fever/neon-fever'
@@ -34,7 +39,12 @@ const IndexPage = () => (
     <AboutPost />
 
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Commercial Projects</h1>
+    <BlocksGame />
+    <PSI />
+    <BuggedDungeon />
+    <Scramblegram />
     <ReelCinema />
+    <BlackSky />
     <Beautify />
     <MotivateMe />
     <RiverRun />
@@ -51,7 +61,7 @@ const IndexPage = () => (
     <HeroesOfNewcastle />
 
     <h1 style={{ fontFamily: 'AvenirNextLTProBold', color: 'white' }}>Game Jam Projects</h1>
-    <BuggedDungeon />
+    <BuggedDungeonGGJ />
     <DIWhyArmourGuy />
     <PounceHug />
     <NeonFever />

@@ -30,7 +30,7 @@ const AboutPost = (props) => {
                         
 I have worked on multiple technologies such as Unity Engine, Unreal Engine, OpenGL, DirectX, GLSL/HLSL/CG, ARKit, ARCore, Vive VR, Computer Vision, WinSocket 2, WebSocket, Native Android and IOS, React, React Native, Node.js, Gatsby, AWS, GCP, and more… 
 
-I have developed and published two game engines, multiple game titles, and apps, and I have participated in the Global Game Jam four years in a row since 2017. 
+I have developed and published two game engines, multiple game titles, and apps, participated in the Global Game Jam four years in a row since 2017. 
 
 My biggest personal project is my game engine. Blue Flame Engine supports Windows, Linux, Android, and Web. It was built from scratch using C++, OpenGL 4.5, and DirectX 11.`}
                     </p>

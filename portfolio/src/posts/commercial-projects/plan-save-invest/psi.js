@@ -10,12 +10,12 @@ import img4 from './images/4.png'
 import img5 from './images/5.png'
 import img6 from './images/6.png'
 
-const Beautify = () => (
+const PSI = () => (
     <Post
-        title={'Beautify'}
-        date={'October 2019 - January 2021'}
+        title={'Plan-Save-Invest (PSI)'}
+        date={'September 2021 - March 2022'}
 
-        youTubeVideo={'https://www.youtube.com/embed/vqtsA28Kpp4'}
+        youTubeVideo={'https://www.youtube.com/embed/SkPDFvH8Svg'}
         description={`Description: Beautify is an e-commerce and a salon service booking app that allows you to sell and buy beauty products and book salon services online. You can create a profile, and starting browsing salons near you.
 
 Technology: React Native, Javascript, and Node.js, Google Cloud.
@@ -34,4 +34,4 @@ Platforms: IOS, Android`}
     />
 )
 
-export default Beautify
+export default PSI
